@@ -13,7 +13,7 @@
 #3 False 
 #4 Ture 
 
-#C3
+#C3 Purpose
 #1 Invalid acess card
 #2 Invalid acess card 
 #3 Acess card acepted then Incorrect PIN 
@@ -51,10 +51,10 @@
 #Secure Building Acess 
 #Chcks the acess card first, then the PIN (only if the card is valid)
 
-card_valid= True 
+card_valid= False
 # Make sure to change the values to test each combination 
 # This is Boolean variable. It holds only Ture or Fals, with capital letter first and no quotes. In quotes would make a stirng 
-pin_correct= False 
+pin_correct= True
 
 if card_valid:
     print("Access card accepted")

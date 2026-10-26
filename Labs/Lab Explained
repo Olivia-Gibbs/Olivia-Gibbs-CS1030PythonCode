@@ -1,0 +1,16 @@
+#Lab 1
+#What each part does:
+#card_valid = True is a Boolean variable. It holds only True or False, with a capital first letter and no quotes. Writing "True" in quotes would make it a string.
+#if card_valid: already means “if card_valid is True”. You don’t need == True.
+#The inner if/else is indented one more level. That indentation is what makes it nested, and it only runs when the outer if is true.
+#The outer else: lines up with the outer if. It runs only when the card is invalid.
+
+#Lab 2 
+#What each part does:
+
+#def check_temperature(temperature): defines the function. temperature is a parameter, a placeholder name inside the function.
+#float(input(...)) converts the typed text into a decimal number. Without float, input gives a string, and comparing a string to 35 causes a TypeError.
+#return status sends the answer back to whoever called the function. That’s why the main code writes temp_result = check_temperature(temperature). The returned value lands in temp_result. The functions don’t print anything themselves, and that is what makes them easy to test.
+#check_temperature(temperature) in the main code is the call. The argument is the actual value passed in.
+#elif is the middle branch. It is only reached if temperature > 35 was False.
+#The function definitions go above the main code. Python must read a def before it can be called.
