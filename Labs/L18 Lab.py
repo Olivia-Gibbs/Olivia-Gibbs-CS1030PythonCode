@@ -4,8 +4,7 @@
 # 1 False 
 #2 False 
 #3 False
-#4 True 
-#5 True 
+#4 True  
 
 #C2 Pin Correct 
 #1 False 
@@ -19,7 +18,7 @@
 #3 Acess card acepted then Incorrect PIN 
 #4 Acess card acepted then Acess Granted 
 
-#4 Purpose 
+#C4 Purpose PT2
 #1 Bad card, so the pin in never checked
 #2 A correct PIN must not rescue a bad card 
 #3 Card passess, PIN fails 
