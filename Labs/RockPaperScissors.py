@@ -21,5 +21,18 @@ def get_player_choice():
 
 # Function for Number to Letter
 def number_to_letter(number):
-    """Convert 1, 2, or 3 to the corresponding choice letter."""
-    return CHOICES[number - 1]
+    """Convert 1, 2, or 3 to 'r', 'p', 's'."""
+    if number== 1:
+        letter= "r"
+    elif number == 2:
+        letter="p"
+    else:
+        letter= "s"
+    return letter 
+
+# Function Computer Choice
+def computer_choice():
+    """Pick a random number from 1 to 3 and return the matching letter."""
+    number = random.randint(1, 3)
+    return number_to_letter(number)
+    
