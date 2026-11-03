@@ -2,6 +2,7 @@
 # Rules: rock blunts scissors, paper covers rock, scissors cut paper
 # Letters: r=rock, p=paper, s=scissors
 
+#Begining Section
 import random
 
 CHOICES = ("r", "p", "s")
