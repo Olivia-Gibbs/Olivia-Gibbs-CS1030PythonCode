@@ -41,8 +41,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Our JavaScript comes after the libraries and page content. -->
     <script>
-        function changeMessage() {
-            // Part 2: Find the paragraph and change its text.
+        
+            // Runs when the Learn More button is clicked (onclick"changeMessage()"").
+            function changeMessage () {
+                //Find the paragrpah with id="message" and replace its visable text.
+                document.getElementById("message"). textContent =
+                "I clicked a button and JavaScript changed this text!";
         }
 
         function greetVisitor() {
