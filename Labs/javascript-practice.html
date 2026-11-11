@@ -48,20 +48,22 @@
                 document.getElementById("message"). textContent =
                 "I clicked a button and JavaScript changed this text!";
         }
-//Runs when the form is submitted (onsubmit = greetVistor (); return false; ")."
-        function greetVisitor() {
-            //. value reads what the visitor typed; let name stores it. Trim removes spaces at the begining and end of what was typed
-            let name = document.getElementById("vistorName").value. trim();
-            // + joins text together; textContent shows the greeting in the paragrpah. === compares values. An empty name gets a helpful prompt 
-            if (name=== "") {
-             document.getElementById("greeting").textContent = 
-             "Please enter your name.";
-            } else{
-                //A name was entered, so display the welcome message.
-                document.getElementById("greeting"). textContent =
+// Runs when the form is submitted (onsubmit="greetVisitor(); return false;").
+function greetVisitor() {
+    // .value reads what the visitor typed; let name stores it.
+    // trim() removes spaces at the beginning and end of what was typed.
+    let name = document.getElementById("visitorName").value.trim();
+
+    // === compares values. An empty name gets a helpful prompt instead.
+    if (name === "") {
+        document.getElementById("greeting").textContent =
+            "Please enter your name.";
+    } else {
+        // A name was entered, so display the welcome message.
+        document.getElementById("greeting").textContent =
             "Welcome, " + name + "!";
-        }
-        }
+    }
+}
     </script>
 </body>
 </html>
